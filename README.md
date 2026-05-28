@@ -60,3 +60,7 @@ O painel foi construído de forma responsiva em HTML/JS, consumindo os dados dir
 2. Instale as dependências necessárias utilizando o arquivo `requirements.txt`:
    ```bash
    pip install plotly networkx pandas requests pymongo certifi
+   ```
+3. Execute as células de ingestão e formatação (celula_2.py e celula_3.py ou diretamente via Jupyter Notebook proj_integrador.ipynb). Elas se conectarão automaticamente ao MongoDB Atlas e gerarão a versão mais recente do dashboard_pi_saude.html.
+
+4. Abra o arquivo dashboard_pi_saude.html em qualquer navegador web para interagir com os dados.
